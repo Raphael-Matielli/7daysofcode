@@ -1,0 +1,27 @@
+.container {
+    width: 100%;   
+    box-sizing: border-box; 
+  }
+.toolbar-class{
+    display: inline-flex;
+    width: 100%;    
+}
+.mat-toolbar{
+    align-items: baseline;
+    flex-direction: initial;
+    padding: 0px 150px;
+}
+.mat-toolbar h1{
+    padding-right: 200px;
+}
+.mat-toolbar-row{
+    width: initial;
+}
+.mat-toolbar-row a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.mat-toolbar-row a:hover{
+    text-decoration: underline !important;
+    color: blueviolet !important;
+}
